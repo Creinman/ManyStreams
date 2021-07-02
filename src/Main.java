@@ -9,6 +9,7 @@ public class Main {
         final MyThread thread1 = new MyThread(mainGroup);
         final MyThread thread2 = new MyThread(mainGroup);
         final MyThread thread3 = new MyThread(mainGroup);
+        final MyThread thread4 = new MyThread(mainGroup);
 
 // Запуск потоков
         thread1.start();
