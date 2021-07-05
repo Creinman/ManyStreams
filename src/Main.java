@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.concurrent.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         ThreadGroup mainGroup = new ThreadGroup("main group");
 
